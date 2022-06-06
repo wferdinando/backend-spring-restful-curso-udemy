@@ -1,0 +1,19 @@
+Objetivo:
+
+Criar uma API RestFul para controle de produtos.
+
+
+Modelo: ->OK
+    Produto: id, nome, quantidade, valor, observacao
+
+Repository: ->OK
+    ProdutoRepository:
+        obterTodos(), obterPorId(), adicionar(), atualizar(), deletar() 
+
+Service: ->OK
+    ProdutoService:
+        obterTodos(), obterPorId(), adicionar(), atualizar(), deletar()
+
+Controller: -> OK
+    ProdutoController:
+        obterTodos(), obterPorId(), adicionar(), atualizar(), deletar()
